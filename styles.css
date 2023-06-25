@@ -1,0 +1,50 @@
+ .images {
+    width: 200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+} 
+
+.baby.active{
+    transform: translateX(0);
+}
+.baby{
+    transform: translateX(-1000px);
+    transition: 1s;
+}
+.toddler.active{
+     transform: translateX(0); 
+}
+.toddler{
+    transition: 1s;
+    transform: translateX(-2000px);
+ 
+}
+
+
+.teen.active {
+    transform: translateX(0);
+}
+.teen{
+    
+    transition: 1s;
+    transform: translateX(-3000px);
+}
+
+.adult.active {
+    transform: translateX(0);
+}
+.adult{
+    
+    transition: 1s;
+    transform: translateX(-4000px);
+}
+.ded.active {
+    transform: translateX(0);
+}
+.ded{
+    
+    transition: 1s;
+    transform: translateX(-4000px);
+}
